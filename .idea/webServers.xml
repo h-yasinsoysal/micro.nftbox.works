@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c90ac6ac-f59a-474c-8d06-f0a267cd5a2c" name="micro.nftbox.works" url="https://micro.nftbox.works">
+        <fileTransfer rootFolder="/home/nftboxworks/micro.nftbox.works" accessType="SFTP" host="88.99.250.48" port="22" sshConfigId="cbfffe2d-1bf4-49a1-ae2d-91babc5c6d00" sshConfig="root@88.99.250.48:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

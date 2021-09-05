@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PHPUnit">
+    <option name="directories">
+      <list>
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Tag/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Blog/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Core/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Form/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Menu/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Shop/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/User/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Cache/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Event/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Media/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Offer/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Backup/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Config/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Helper/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Option/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Comment/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Content/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/OpenApi/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Package/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Product/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Category/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Customer/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Database/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/ContentData/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/CustomField/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Translation/tests" />
+        <option value="$PROJECT_DIR$/src/MicroweberPackages/Notification/tests" />
+        <option value="$PROJECT_DIR$/userfiles/modules/multilanguage/tests" />
+      </list>
+    </option>
+  </component>
+</project>
