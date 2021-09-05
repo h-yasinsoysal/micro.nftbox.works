@@ -1,0 +1,22 @@
+{
+  "name": "microweber-modules/calendar",
+  "description": "Calendar",
+  "license": "MIT",
+  "homepage": "https://microweber.org/modules/microweber-modules/calendar",
+  "authors": [
+    {
+      "name": "MW Team",
+      "email": "team@microweber.com"
+    }
+  ],
+"autoload": {
+	"psr-0": {
+		"Recurr": "src/"
+	}
+},
+  "keywords": [
+    "calendar"
+  ],
+  "type": "microweber-module",
+  "target-dir": "calendar"
+}

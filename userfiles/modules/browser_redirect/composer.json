@@ -1,0 +1,17 @@
+{
+  "name": "microweber-modules/browser_redirect",
+  "description": "Browser Redirect",
+  "license": "MIT",
+  "homepage": "https://microweber.org/modules/microweber-modules/browser_redirect",
+  "authors": [
+    {
+      "name": "MW Team",
+      "email": "team@microweber.com"
+    }
+  ],
+  "keywords": [
+    "browser_redirect"
+  ],
+  "type": "microweber-module",
+  "target-dir": "browser_redirect"
+}

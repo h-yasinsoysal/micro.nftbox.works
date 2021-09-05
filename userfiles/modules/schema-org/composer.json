@@ -1,0 +1,20 @@
+{
+  "name": "microweber-modules/schema-org",
+  "require": {
+    "torann/json-ld": "^0.0.19"
+  },
+  "description": "Schema.org",
+  "license": "MIT",
+  "homepage": "https://www.microweber.org",
+  "authors": [
+    {
+      "name": "MW Team",
+      "email": "team@microweber.com"
+    }
+  ],
+  "keywords": [
+    "schema"
+  ],
+  "type": "microweber-module",
+  "target-dir": "schema-org"
+}

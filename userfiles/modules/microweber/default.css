@@ -1,0 +1,211 @@
+/*
+ * Microweber - Framework
+ *
+ * Default styles
+ *
+ */
+
+@import url("css/ui.css");
+/*
+@import url("../layouts/templates/layouts.css");
+*/
+
+/*@import url("api/libs/mw-ui/grunt/plugins/ui/css/main_with_mw.css");*/
+/*@import url("api/libs/mw-ui/grunt/plugins/ui/css/main_compiled.css");*/
+
+@import url("api/libs/mw-ui/assets/ui/plugins/css/plugins.min.css");
+
+
+.mw-filepicker-component-section:hover .dropable-zone{
+    border-color: #4592ff;
+    background-color: rgba(69, 146, 255, 0.1);
+}
+.mw-uploader-type-holder{
+    position: relative;
+}
+
+.mw-filepicker-root .card-header .dropdown.form-control {
+    width: auto !important;
+}
+
+.mw-filepicker-component-section {
+    /*max-height: 70vh;*/
+    overflow: hidden;
+}
+
+.bootstrap-select .dropdown-menu li{
+    overflow: hidden;
+}
+.mw-filepicker-component-section,
+.mw-filepicker-component-section iframe{
+    min-height: 50px;
+
+}
+.mw-filepicker-component-navigation-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mw-user-thumb:before{
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\F0013";
+    font-family: "Material Design Icons";
+}
+.mw-user-thumb{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: inline-flex;
+    vertical-align: middle;
+    background-color: #F9F9F9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: #51acf7;
+    font-size: 30px;
+
+}
+
+
+.mw-richtext-list {
+    padding: 6px 0;
+}
+
+ul.mw-richtext-list,
+ul.mw-richtext-list li{
+    list-style-type: disc;
+    list-style-position: outside;
+}
+ol.mw-richtext-list,
+ol.mw-richtext-list li {
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+ul.mw-richtext-list ul li, ol.mw-richtext-list ul li,
+ul.mw-richtext-list ul, ol.mw-richtext-list ul {
+    list-style-type: circle;
+    list-style-position: outside;
+
+}
+ul.mw-richtext-list ul, ol.mw-richtext-list ul,
+ol.mw-richtext-list ol, ul.mw-richtext-list ol {
+    margin-left: 15px;
+}
+ol.mw-richtext-list ol, ul.mw-richtext-list ol,
+ol.mw-richtext-list ol li, ul.mw-richtext-list ol li {
+    list-style-type: lower-latin;
+    list-style-position: outside;
+}
+
+.mw-richtext-list li {
+    padding-left: 14px;
+    line-height: 2;
+}
+
+
+/*LIVE EDIT STATIC LAYOUTS*/
+
+/*ORDERED LIST*/
+ol.mw-default-layout-ordered-t1 li {
+
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-inline-start: 17px;
+    text-indent: -17px;
+}
+ol.mw-default-layout-ordered-t1 li ol li{
+    list-style-type: lower-alpha;
+}
+
+/*UNORDERED LIST*/
+ul.mw-default-layout-un-ordered-t2 li {
+    list-style-position: inside;
+    margin-inline-start: 17px;
+    text-indent: -17px;
+}
+
+
+ul.mw-default-layout-un-ordered-t2 li:before {
+    content: '\2714';
+}
+
+/*DOTS LIST*/
+
+ul.mw-default-layout-un-ordered-t4 li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-inline-start: 17px;
+    text-indent: -17px;
+}
+
+ul.mw-default-layout-un-ordered-t4 li ul li {
+    list-style-type: circle;
+}
+
+
+
+/*PARAGRAPH*/
+.mw-default-layout-highlight-line{
+    border-left: 4px solid black;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+/*CHECKED*/
+
+ul.mw-default-layout-un-ordered-checked li {
+    list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z' /%3E%3C/svg%3E");
+    list-style-position: inside;
+    margin-inline-start: 17px;
+    text-indent: -17px;
+}
+
+
+
+/*ARROWS*/
+ul.mw-default-layout-un-ordered-arrows {
+    position: relative;
+
+}
+
+ul.mw-default-layout-un-ordered-arrows li {
+    list-style-position: inside;
+    list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z' /%3E%3C/svg%3E");
+    margin-inline-start: 17px;
+    text-indent: -17px;
+}
+
+/*Blockquote*/
+ul.mw-default-layout-blockquote li {
+    position: relative;
+    padding-left: 20px;
+}
+
+ul.mw-default-layout-blockquote li:before {
+    content: '\275D';
+    font-size: 22px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+/*small:before {*/
+    /*content: "\2014 \00A0";*/
+/*}*/
+
+/*Background Text*/
+ul.mw-default-layout-background-text {
+    background-color: rgba(0, 0, 0, 0.01);
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    padding: 0.8em;
+}
+
+
+

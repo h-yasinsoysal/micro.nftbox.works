@@ -1,0 +1,19 @@
+{
+  "name": "microweber-modules/videos-playlist",
+  "description": "Video with Playlist",
+  "license": "MIT",
+  "homepage": "https://www.plumtex.com",
+  "authors": [
+    {
+      "name": "Petko Yovchevski",
+      "email": "pyovchevski@gmail.com"
+    }
+  ],
+  "keywords": [
+    "vimeo",
+    "video",
+    "playlist"
+  ],
+  "type": "microweber-module",
+  "target-dir": "videos_playlist"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "microweber-modules/pricing_table",
+  "description": "Pricing Tables",
+  "license": "MIT",
+  "homepage": "https://microweber.org/modules/microweber-modules/pricing_table",
+  "authors": [
+    {
+      "name": "MW Team",
+      "email": "team@microweber.com"
+    }
+  ],
+  "keywords": [
+    "pricing_table"
+  ],
+  "type": "microweber-module",
+  "target-dir": "pricing_table"
+}

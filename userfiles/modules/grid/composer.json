@@ -1,0 +1,17 @@
+{
+  "name": "microweber-modules/grid",
+  "description": "Grid",
+  "license": "MIT",
+  "homepage": "https://microweber.org/modules/microweber-modules/grid",
+  "authors": [
+    {
+      "name": "Petko Yovchevski (MW Team)",
+      "email": "team@microweber.com"
+    }
+  ],
+  "keywords": [
+    "grid"
+  ],
+  "type": "microweber-module",
+  "target-dir": "grid"
+}

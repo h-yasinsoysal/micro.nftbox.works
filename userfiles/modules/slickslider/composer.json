@@ -1,0 +1,17 @@
+{
+  "name": "microweber-modules/slickslider",
+  "description": "Slick Slider",
+  "license": "MIT",
+  "homepage": "https://microweber.org/modules/microweber-modules/slickslider",
+  "authors": [
+    {
+      "name": "Bozhidar Slaveykov",
+      "email": "bobi@microweber.com"
+    }
+  ],
+  "keywords": [
+    "slickslider"
+  ],
+  "type": "microweber-module",
+  "target-dir": "slickslider"
+}
